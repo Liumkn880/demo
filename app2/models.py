@@ -4,5 +4,5 @@ from django.db import models
 
 class User(models.Model):
     name = models.CharField()
-    ...
-    ...
+    def __init__(self):
+        print('hahaha123')
